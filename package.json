@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "@tailwindcss/typography": "^0.5.16",
+    "@types/events": "^3.0.3",
+    "@types/mapbox-gl": "^3.4.1",
+    "@types/node": "^22.10.10",
+    "@types/react": "^19.0.8",
+    "@types/ua-parser-js": "^0.7.39",
+    "autoprefixer": "^10.4.20",
+    "events": "^3.3.0",
+    "immer": "^10.1.1",
+    "postcss": "^8.5.1",
+    "react-map-gl": "^7.1.8",
+    "tailwindcss": "^4.0.0",
+    "uuid": "^11.0.5",
+    "zustand": "^5.0.3"
+  }
+}

@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .map-container {
+    @apply h-screen w-full relative overflow-hidden;
+  }
+
+  .map-overlay {
+    @apply absolute bg-map-overlay rounded-lg p-4 shadow-map-control;
+    backdrop-filter: blur(8px);
+    z-index: 100;
+  }
+}
